@@ -12,16 +12,19 @@ I hope you will also benefit.<p/>_
 
 
 ```css
+
 <style type="text/css">
 *{text-align:center; background:red; color:#FFF;}
 
-</style>```  
+</style> 
+```  
 
 
 ## $SERVER style start hear
 
 
 ```php
+
 <?php
 $x= 5;
 function mytest(){
