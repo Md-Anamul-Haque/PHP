@@ -12,7 +12,7 @@
 ```  
 
 
-## $SERVER style start hear
+## $SERVER start hear
 
 
 ```php
