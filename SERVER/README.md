@@ -1,6 +1,6 @@
 
 
-## $SERVER style start hear  
+## $_SERVER style start hear  
 
 
 ```css
@@ -12,7 +12,7 @@
 ```  
 
 
-## $SERVER start hear
+## $_SERVER start hear
 
 
 ```php
