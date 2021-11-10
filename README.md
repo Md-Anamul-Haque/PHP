@@ -1,9 +1,4 @@
-<style>
-p{background:red;}
-</style>
-
-
-### welcome to learning information <br/> in -> PHP <br/>With Anamul Haque<br/>  
+## welcome to learning information <br/> in -> PHP <br/>With Anamul Haque<br/>  
 
 
 <hr/>
