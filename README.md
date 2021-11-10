@@ -1,7 +1,5 @@
 
-### welcome to learning information  
-in -> PHP  
-With Anamul Haque<br/>  
+### welcome to learning information  in -> PHP  With Anamul Haque<br/>  
 
 
 <hr/>
