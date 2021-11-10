@@ -8,15 +8,23 @@ _<p>It's is php code memory.
 You can also see the code you need from here. 
 I hope you will also benefit.<p/>_
 
+## $SERVER style start hear  
 
-```php
+
+```css
 <style type="text/css">
 *{text-align:center; background:red; color:#FFF;}
 
-</style>
+</style>```  
+
+
+## $SERVER style start hear
+
+
+```php
 <?php
 $x= 5;
-function myvar(){
+function mytest(){
 echo $_SERVER['PHP_SELF'];
 echo "<br/>";
 echo "<hr/>";
@@ -34,12 +42,8 @@ echo "<br/>";
 echo "<hr/>";
 echo $_SERVER['SERVER_ADDR'];
 }
-myvar();
-
-?>
-
-
-```
+mytest();
+?> ```
 
 
 
