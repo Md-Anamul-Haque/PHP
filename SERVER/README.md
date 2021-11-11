@@ -42,6 +42,7 @@ mytest();
 
 ## form to data get request post etc follow down
 
+
 ```html
 <form action="<?php echo $_SERVER['PHP_SELF']?>" method="get" >
 	<label for="username"> Username
