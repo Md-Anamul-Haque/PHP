@@ -40,8 +40,9 @@ echo $_SERVER['SERVER_ADDR'];
 mytest();
 ?> ```
 
+  
 ## form to data get request post etc follow down
-
+  
 
 ```html
 <form action="<?php echo $_SERVER['PHP_SELF']?>" method="get" >
