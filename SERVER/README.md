@@ -40,5 +40,24 @@ echo $_SERVER['SERVER_ADDR'];
 mytest();
 ?> ```
 
+## form to data get request post etc follow down
+
+```html
+<form action="<?php echo $_SERVER['PHP_SELF']?>" method="get" >
+	<label for="username"> Username
+		<input type="text" name="username" >
+	</label>
+		<input type="submit" value="Submit" >
+</form>
+```
+
+```php
+<?php
+	echo "REQUEST:".$_REQUEST['username']."<br/>";
+	echo "GET:".$_GET['username']."<br/>";  // if (method="get"); tahole ata kaj korbe
+	echo "POST:". $_POST['username']; // if (method="post"); tahole ata kaj korbe
+	
+?>
+```
 
 
