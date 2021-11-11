@@ -38,7 +38,9 @@ echo "<hr/>";
 echo $_SERVER['SERVER_ADDR'];
 }
 mytest();
-?> ```
+?> 
+
+```
 
   
 ## form to data get request post etc follow down
