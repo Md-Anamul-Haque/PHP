@@ -9,12 +9,13 @@
 *{text-align:center; background:red; color:#FFF;}
 
 </style> 
-```  
+```    
+
 
 
 ## $_SERVER start hear
 
-
+  
 ```php
 
 <?php
@@ -64,11 +65,16 @@ mytest();
 ?>
 ```
 
+  
 
-## Advance
+## Advance. 
 
 
-```
+
+```html  
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<?php
@@ -134,6 +140,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 	</tr>
 </table>
 </form>
+
 
 ```
 
