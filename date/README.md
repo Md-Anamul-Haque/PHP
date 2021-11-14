@@ -16,5 +16,6 @@ echo "Today is " .date("l")."<br/>";
 date_default_timezone_set("Asia/Dhaka");
 echo "Time is " .date("h:i:s");
 // কোন রাষ্ট্রের সময় নিরদারিত করা তা জানার জন্যে নিচের লাইনটি।
+echo date_default_timezone_get();
 
 ?>```
