@@ -21,16 +21,20 @@
 <?php
 $x= 5;
 function mytest(){
-echo $_SERVER['PHP_SELF'];<!--this file information-->
+//this file information
+echo $_SERVER['PHP_SELF'];
 echo "<br/>";
 echo "<hr/>";
-echo $_SERVER['SERVER_NAME'];<!--host name-->
+//host name
+echo $_SERVER['SERVER_NAME'];
 echo "<br/>";
 echo "<hr/>";
-echo $_SERVER['SCRIPT_NAME'];<!--this all file information-->
+//this all file information
+echo $_SERVER['SCRIPT_NAME'];
 echo "<br/>";
 echo "<hr/>";
-echo $_SERVER['HTTP_USER_AGENT'];<!-- browser information-->
+//browser information
+echo $_SERVER['HTTP_USER_AGENT'];
 echo "<br/>";
 echo "<hr/>";
 echo $_SERVER['SERVER_ADDR'];
