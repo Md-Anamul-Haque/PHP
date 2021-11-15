@@ -16,3 +16,11 @@
 </form>
 
 ```
+
+
+## this work in single line below steps
+
+
+```php
+move_uploaded_file($_FILES["images"]["name"],"images/".$_FILES["images"]["tmo_name"]);
+```
