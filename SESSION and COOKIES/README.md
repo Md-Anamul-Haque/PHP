@@ -8,13 +8,13 @@ $_SESSION["user"] ="Anamul Haque";
 $_SESSION["password"]="1234";
 echo $_SESSION["user"]."<br/>";
 echo $_SESSION["password"];
-?>```
+?>```  
 
 
 ### COOKIES  
 
-```PHP
 
+```PHP
 <?php
 if(!isset($_COOKIE["username"])){
 	setcookie('username','Anamul',time()+10) or die("Could not set cookies");
