@@ -1,6 +1,7 @@
-## এটা মাল্টিপুল পেজ এ ওপেন করতে পারবেন।  
+## এটা মাল্টিপুল পেজ এ ওপেন করতে পারবেন <br/>
 
-###SESSION  
+
+<h3>SESSION</h3><br/>
 
 ```php
 <?php
@@ -8,10 +9,14 @@ $_SESSION["user"] ="Anamul Haque";
 $_SESSION["password"]="1234";
 echo $_SESSION["user"]."<br/>";
 echo $_SESSION["password"];
-?>```  
+?>
+
+```
 
 
-### COOKIES  
+
+### COOKIES <br/>
+
 
 
 ```PHP
@@ -21,6 +26,10 @@ if(!isset($_COOKIE["username"])){
 	echo "this is your first visit in the page";
 }else{echo "you have old visitor";}
 ?>
+
 ```
 
+### if you want multiple page with used  
 
+```php [main file]  
+```
