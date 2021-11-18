@@ -35,4 +35,8 @@ if(isset($_POST["language"])){
 	</table>
 </form>
 
-```
+```  
+
+### output
+
+<img width="400px" src="Checkbox.jpg"/>
